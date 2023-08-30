@@ -1,0 +1,117 @@
+body {
+	
+	font-size:14pt;
+	background-color:#e0b336;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+h4{
+	text-align: center;
+}
+
+#best{
+	font-family: 'REM', sans-serif;
+	margin-left:2%
+}
+
+#teck{
+	font-family: 'Orbitron', sans-serif;
+}
+
+#film{
+	font-family: 'Lobster', cursive;
+}
+
+#book{
+	font-family: 'Lobster', cursive;
+}
+
+#games{
+	font-family: 'Black Ops One', cursive;
+}	
+
+header h1 {
+	text-align: center;
+	color: black;
+	font-family: 'Rubik Iso', cursive;
+}
+
+
+
+/* NAVIGATIION BAR (BARRA DI NAVIGAZIONE*/
+nav{
+	background-color: #e0b336;
+
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding:1%;
+}
+
+nav li{
+	display: inline;				
+	padding-right: 3%;			
+}
+
+nav li a {
+	color: black;
+	text-decoration: none;
+	padding:1%;
+}
+
+nav li a:hover {
+	color:#e3d917;
+	font-weight : bold;
+	background-color : #000000;
+	opacity: 75%;
+}
+
+.best nav li a{
+	
+	color:#e0b336;
+	background-color : black;
+	
+	
+}
+
+/*FOOTER DELLA PAGINA*/
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+  
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* altezza del footer */
+}
+
+#footer {
+  position: absolute;
+  width: 100%;
+  background-color:#e0b336;
+  bottom:0;
+}
+
+.cop {
+	padding: 0 1%;
+	display:flex;
+	align-items:center;
+	margin-left:44%;
+}
+
+.sinistra p{
+	text-align:left;
+}
+
+.destra{
+	text-align:right;
+}
+
+.destra img{
+	width:26px;
+	height:26px;
+	margin-right:1%;
+}
